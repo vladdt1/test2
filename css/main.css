@@ -1,0 +1,27 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__container {
+    border-top: 1px solid rgb(164, 164, 164);
+    border-bottom: 1px solid rgb(164, 164, 164);
+
+}
+
+.main__sections {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.profile__section {
+    display: flex;
+}
+
+.profile__bgr_content {
+    width: 1220px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/bgr.png');
+}
